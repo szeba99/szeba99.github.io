@@ -1,0 +1,74 @@
+#button_left
+{
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-right-color: white;
+    float: left;
+    animation: buttons_start 2s;
+    margin-right: 5%;
+    
+}
+
+
+#button_none
+{
+    animation: buttons_start 2s;
+    margin-right: 5%;
+}
+
+
+#header_button /*<a></a>*/
+{
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    
+    transition: 1s;
+    font-family: "Orbitron" sans-serif;
+    text-shadow: none;
+}
+
+#header_button:active
+{
+    text-shadow: 0 0 5px rgb(178, 32, 32);
+}
+#header_button:hover:active
+{
+    text-shadow: 0 0 5px rgb(178, 32, 32);
+}
+
+#header_button:visited /*<a></a>*/
+{
+    font-size: 30px;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    font-family: "Orbitron" sans-serif;
+    transition: 1s;
+    text-shadow: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+#header_button:hover
+{
+    font-size: 32px;
+    transition: 0.5s;
+    color:white;
+    text-shadow: 0 0 5px lightseagreen;
+    font-family: "Orbitron" sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+@keyframes buttons_start
+{
+    from
+    {
+        filter:blur(20px);
+    }
+
+    to
+    {
+        filter:blur(0px);
+    }
+}

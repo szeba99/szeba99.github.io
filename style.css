@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+    background-image: url("bricks.jpg");
+    color: rgb(143, 143, 143);
+    font-size: 20px;
+}
+
+span
+{
+    color:inherit;
+    transition: 0.5s;
+}
+
+span:hover
+{
+    color: rgb(230, 230, 230);
+    text-shadow:0 0 3px rgb(0, 147, 196);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

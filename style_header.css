@@ -1,0 +1,44 @@
+h1
+{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 0 0 22px green;
+    animation: header_anim 2.5s;
+    font-size: 45px;
+    transition: 2.5s;
+    user-select:none;
+}
+
+h1:hover
+{
+    transition: 0.5s;
+    text-shadow: 0 0 22px rgb(0, 183, 255);
+    user-select:none;
+}
+
+@keyframes header_anim 
+{
+    0%
+    {
+        color:rgba(255, 255, 255, 0);
+        text-shadow: 0 0 5px rgba(44, 32, 212, 0.445);
+        filter:blur(15px);
+    }
+    50%
+    {
+        color:rgba(255, 255, 255, 0);
+        text-shadow: 0 0 10px rgb(192, 40, 212);
+        filter:blur(5px);
+    }
+    100%
+    {
+        color:white;
+        text-shadow: 0 0 22px green;
+        filter:blur(0px);
+    }
+}
+
+#head_panel_container
+{
+    height:40px;
+}

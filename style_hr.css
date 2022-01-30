@@ -1,0 +1,49 @@
+
+hr
+{
+    border:none;
+    height:2px;
+    background-color: white;
+    filter:blur(1px);
+    box-shadow: 0 0 15px 3px blue;
+    animation:hr-open 1s;
+    user-select: 0;
+    transition: 2s;
+}
+
+hr:hover
+{
+    box-shadow: 0 0 15px 3px rgb(0, 47, 255);
+    transition: 1s;
+}
+
+#hr_left
+{
+    margin-left: 0px;
+}
+
+#hr_right
+{
+    margin-right: 0px;
+}
+
+@keyframes hr-open
+{
+
+    0%
+    {
+        width:0%;
+        box-shadow: 0 0 15px 3px rgb(255, 0, 0);
+    }
+    50%
+    {
+        
+        box-shadow: 0 0 15px 3px rgb(183, 0, 255);
+    }
+    100%
+    {
+        width:100%;
+        box-shadow: 0 0 15px 3px blue;
+    } 
+}
+
