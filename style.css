@@ -19,6 +19,16 @@ span:hover
     transition: 0.5s;
 }
 
+/* unvisited link */
+a:link {
+  color: "#334d4a";
+}
+
+/* visited link */
+a:visited {
+  color: "#402838";
+}
+
 
 
 
